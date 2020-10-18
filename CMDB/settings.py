@@ -121,10 +121,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-scanhost=[
+scanhosts=[
     '192.168.240.0/24'
 ]
-command={
+commands={
     'hostname':'hostname',
     'os_type':'uname',
     'os_distribution': 'dmidecode -s system-manufacturer',
